@@ -5,22 +5,22 @@ namespace Protafolio1.Controllers;
 public class PrincipalController : Controller{
     [HttpGet]
     [Route("")]
-    public string Index(){
-        return "This is my index!";
+    public IActionResult Index(){
+        return View("Index");
 
     }
 
     [HttpGet]
     [Route("projects/")]
-    public string Projects() {
-        return "These are my projects";
+    public IActionResult Projects(){
+        return View("Projects");
 
     }
 
     [HttpGet]
     [Route("contact/")]
-    public string Conctact() {
-        return "This is my contact";
+    public IActionResult Contact(){
+        return View("Contact");
 
     }
 

@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "L2RZ4XWIJmsjuHoenbdKDJlXFS1ohDtatvRsuGhmvs0=",
+  "Hash": "kpq+ZIM4bskXcULN8+2sGSw9FFROeaQxpyBtclB6V/M=",
   "Source": "Portafolio1",
   "BasePath": "_content/Portafolio1",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Portafolio1\\wwwroot",
+      "Source": "Portafolio1",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Curso C# .net\\Actividades\\Portafolio1\\wwwroot\\",
+      "BasePath": "_content/Portafolio1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Curso C# .net\\Actividades\\Portafolio1\\wwwroot\\css\\styles.css",
+      "SourceId": "Portafolio1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Curso C# .net\\Actividades\\Portafolio1\\wwwroot\\",
+      "BasePath": "_content/Portafolio1",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    }
+  ]
 }

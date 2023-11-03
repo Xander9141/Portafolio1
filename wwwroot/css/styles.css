@@ -1,0 +1,79 @@
+html{
+    background: #5D4157;  /* Fallback para navegadores antiguos */
+    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label, .input-group input, .input-group textarea {
+    display: block;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.container img {
+    width: 30%;
+    border-radius: 10%;
+}
+
+.container > div {
+    flex: 1;
+    padding: 20px;
+}
+
+.container > div:first-child {
+    padding-right: 10px; 
+}
+
+.container div p {
+    color: white;
+    
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}

@@ -23,3 +23,6 @@ C:\Users\Usuario\Desktop\Curso C# .net\Actividades\Portafolio1\obj\Debug\net7.0\
 C:\Users\Usuario\Desktop\Curso C# .net\Actividades\Portafolio1\obj\Debug\net7.0\Portafolio1.pdb
 C:\Users\Usuario\Desktop\Curso C# .net\Actividades\Portafolio1\obj\Debug\net7.0\Portafolio1.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Curso C# .net\Actividades\Portafolio1\obj\Debug\net7.0\ref\Portafolio1.dll
+C:\Users\Usuario\Desktop\Curso C# .net\Actividades\Portafolio1\obj\Debug\net7.0\Portafolio1.RazorAssemblyInfo.cache
+C:\Users\Usuario\Desktop\Curso C# .net\Actividades\Portafolio1\obj\Debug\net7.0\Portafolio1.RazorAssemblyInfo.cs
+C:\Users\Usuario\Desktop\Curso C# .net\Actividades\Portafolio1\bin\Debug\net7.0\Portafolio1.staticwebassets.runtime.json

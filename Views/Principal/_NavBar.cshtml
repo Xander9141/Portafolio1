@@ -1,0 +1,35 @@
+<!-- _NavBar.cshtml -->
+
+<style>
+    /* Estilos para la barra de navegación */
+    .tabs {
+        text-align: center; 
+    }
+
+    .tabs ul {
+        list-style-type: none; 
+        padding: 0;
+    }
+
+    .tabs li {
+        display: inline-block; 
+        margin: 0 10px; 
+    }
+
+    .tabs a {
+        text-decoration: none; 
+        padding: 5px 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+        color: white;
+    }
+</style>
+
+<nav class="tabs">
+    <ul>
+        <li><a asp-area="" asp-controller="PrincipalControllers" asp-action="Index">Index</a></li>
+        <li><a asp-area="" asp-controller="PrincipalControllers" asp-action="Projects">Projects</a></li>
+        <li><a asp-area="" asp-controller="PrincipalControllers" asp-action="Contact">Contact</a></li>
+    </ul>
+</nav>
+
